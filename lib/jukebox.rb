@@ -29,4 +29,9 @@ def list(songs)
   puts "8. #{songs[7]}"
   puts "9. #{songs[8]}"
 end 
+
+def play(songs)
+  puts "Please enter a song name or number:"
+  input=gets.strip
+  
   
