@@ -56,13 +56,13 @@ def run(songs)
   user=gets.strip
   if user=="help"
     help 
-    run 
+    run(songs)
   elsif user=="play"
     play(songs)
-    run 
+    run(songs)
   elsif user=="list"
     list(songs)
-    run 
+    run(songs)
   elsif user=="exit"
     exit_jukebox 
     return 
