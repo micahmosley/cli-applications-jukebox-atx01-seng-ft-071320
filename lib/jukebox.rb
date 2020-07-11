@@ -41,6 +41,7 @@ def play(songs)
   songs.each do |song|
     if song==input
       puts "Playing #{song}"
+      return 
     end 
   end 
   puts "Invalid input, please try again"
