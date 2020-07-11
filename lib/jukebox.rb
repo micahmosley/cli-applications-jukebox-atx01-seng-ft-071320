@@ -21,7 +21,7 @@ end
 def list(songs)
   puts "1. #{songs[0]}"
   puts "2. #{songs[1]}"
-  puts "3. #{songs[0]}"
+  puts "3. #{songs[2]}"
   puts "4. #{songs[3]}"
   puts "5. #{songs[4]}"
   puts "6. #{songs[5]}"
