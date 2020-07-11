@@ -6,7 +6,7 @@ songs = [
   "(Far From) Home - Tiga",
   "The Cults - Abducted",
   "Phoenix - Consolation Prizes",
-  "Harry Chapin - Cats in the Cradle",
+  "Harry Chapman - Cats in the Cradle",
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
@@ -19,14 +19,14 @@ def help
 end 
 
 def list(songs)
-  puts "1. Phoenix - 1901"
-  puts "2. Tokyo Police Club - Wait Up"
-  puts "3. Sufjan Stevens - Too Much"
-  puts "4. The Naked and the Famous - Young Blood"
-  puts "5. (Far From) Home - Tiga"
-  puts "6. The Cults - Abducted"
-  puts "7. Phoenix - Consolation Prizes"
-  puts "8. Harry Chapin - Cats in the Cradle"
-  puts "9. Amos Lee - Keep It Loose, Keep It Tight"
+  puts "1. #{songs[0]}"
+  puts "2. #{songs[1]}"
+  puts "3. #{songs[0]}"
+  puts "4. #{songs[3]}"
+  puts "5. #{songs[4]}"
+  puts "6. #{songs[5]}"
+  puts "7. #{songs[6]}"
+  puts "8. #{songs[7]}"
+  puts "9. #{songs[8]}"
 end 
   
